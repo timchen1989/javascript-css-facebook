@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Layout</title>
+<link rel="stylesheet" type="text/css" href="facebook.css" />
+</head>
+<body>
+    <div class="frame">
+        <div class="left">
+            <div class="logo">
+                <a style="color:white;" href="#">facebook</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="col">
+                <div class="email_label">電子郵件或電話</div>
+                <div><input type="text" class="top_input"/></div>
+                <div style="padding-top:3px;">&nbsp;</div><!--網頁中的空白符號，non black space-->
+            </div>
+            <div class="col">
+                <div class="email_label">密碼</div>
+                <div><input type="text" class="top_input"/></div>
+                <a href="#" role="button"><div class="forgetPwd">忘記帳號 ?</div></a>
+            </div>
+            <div class="col">
+                <div class="email_label">&nbsp;</div>
+                <div><a href="http://facebook.com/"><input type="submit" value="登入" class="login_button" /></a></div>
+                <div style="padding-top:3px;">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+    <div class="middle_frame" >
+        <div class="middle_left">
+            <div style="color:#0e385f;">Facebook，讓你和親朋好友保持聯繫，隨時分<br/>享生活中的每一刻。</div>
+            <img src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/7XdR1KwCifL.png?_nc_x=Ij3Wp8lg5Kz"  width="536" height="194" />
+        </div>
+        <div class="middle_right">
+            <div style="color:black;font-size:20px;">
+                <div class="register_label">註冊</div><div style="padding:6px 0px;">快速又簡單。</div>
+            </div>
+            <div class="middle_name">
+                <div class="middle_firstname">
+                    <input class="middle_input" type="text" placeholder="姓氏" />
+                </div>
+                <div class="middle_lastname">
+                    <input class="middle_input" type="text" placeholder="名字"/>
+                </div>
+            </div>
+            <div>
+                <input style="width:353px;" class="middle_input" type="text" placeholder="手機號碼或電子信箱"/>
+            </div>
+            <div style="margin-bottom: 15px;">
+                <input style="width:353px;" class="middle_input" type="text"  placeholder="設定密碼"/>
+            </div>
+            <div class="middle_col middle_input_label" >生日</div>
+            <div class="middle_name">
+                <div  class="middle_firstname middle_col">
+                    <select style="padding:5px">
+                        <option value="0">年</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>    
+                        <option value="1994" selected="1">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990">1990</option>
+                        <option value="1989">1989</option>
+                    </select>
+                </div>
+                <div  class="middle_firstname middle_col">
+                    <select style="padding:5px">
+                        <option value="0">月</option>  
+                        <option value="12">12月</option> 
+                        <option value="11">11月</option> 
+                        <option value="10">10月</option>
+                        <option value="9">9月</option>
+                        <option value="8" selected="1">8月</option>
+                        <option value="7">7月</option>
+                        <option value="6">6月</option>
+                        <option value="5">5月</option>
+                        <option value="4">4月</option>
+                        <option value="3">3月</option>
+                        <option value="2">2月</option>
+                        <option value="1">1月</option>
+                    </select>
+                </div>
+                <div class="middle_firstname middle_col">
+                    <select style="padding:5px">
+                        <option value="0">日</option>  
+                        <option value="18">18</option> 
+                        <option value="17">17</option> 
+                        <option value="16">16</option> 
+                        <option value="15">15</option> 
+                        <option value="14">14</option> 
+                        <option value="13">13</option> 
+                        <option value="12">12</option> 
+                        <option value="11" selected="1">11</option> 
+                        <option value="10">10</option> 
+                        <option value="9">9</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+                <div style="margin: 13px 10px 5px;" class="middle_firstname">
+                    <a href="#" title="點擊以了解詳情" role="button">
+                        <img src="https://cdn3.iconfinder.com/data/icons/gray-toolbar-4/512/query-512.png" width="16px" height="16px"></img>
+                    </a>
+                </div>
+            </div>
+            <div class="middle_col middle_input_label">性別</div>
+            <div class="middle_name middle_col">
+                <div class="middle_firstname" style="font-size:20px; margin-left: 5px;">
+                    <div>
+                        <input type="radio" >女性</input>
+                    </div>
+                </div>
+                <div class="middle_firstname middle_gender_space">
+                    <div>
+                        <input type="radio" >男性</input>
+                    </div>
+                </div>
+                <div class="middle_firstname middle_gender_space">
+                    <div>
+                        <input type="radio" >自訂</input>
+                    </div>
+                </div>
+                <div style="margin: 3px 5px 5px;">
+                    <div><a style="margin-left: 15px; " href="#"><img src="https://cdn3.iconfinder.com/data/icons/gray-toolbar-4/512/query-512.png" width="16px" height="16px"></img></a></div>
+                </div>
+            </div>
+            <div class="middle_firstname middle_col middle_policy">
+                點擊「註冊」即表示你同意我們的<a href="https://www.facebook.com/legal/terms/update">使用條款</a>、<a href="https://www.facebook.com/about/privacy/update">資料政策</a>和<br/><a href="https://www.facebook.com/policies/cookies/">Cookie 政策</a>。你可能會收到我們的簡訊通知，而且可以隨<br/>時選擇停止接收。
+            </div>
+            <div class="middle_firstname">
+                <a href="#"><button class="middle_input middle_submit"  type="submit">註冊</button></a>
+            </div>
+            <div class="middle_fans_label">
+                為名人、團體或公司企業<a href="https://www.facebook.com/pages/create/?ref_type=registration_form">建立粉絲專頁</a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom_frame">
+        <div class="content">
+            <div>
+                <ul>
+                    <li>中文(台灣)</li>
+                    <li><a href="https://www.facebook.com/">English (US)</a></li>
+                    <li><a href="https://vi-vn.facebook.com/">Tiếng Việt</a></li>
+                    <li><a href="https://id-id.facebook.com/" >Bahasa Indonesia</a></li>
+                    <li><a href="https://th-th.facebook.com/">ภาษาไทย</a></li>
+                    <li><a href="https://ja-jp.facebook.com/">日本語</a></li>
+                    <li><a href="https://es-la.facebook.com/">Español</a></li>
+                    <li><a href="https://pt-br.facebook.com/">Português (Brasil)</a></li>
+                    <li><a href="https://fr-fr.facebook.com/">Français (France)</a></li>
+                    <li><a href="https://de-de.facebook.com/">Deutsch</a></li>
+                    <li><a href="https://it -it.facebook.com/">Italiano</a></li>
+                    <li><a href="#" title="顯示更多語言" ><button class="more_language_botton" type="button">+</button></a></li>
+                </ul>
+            </div>
+            <div class="bottom_hr" ></div>
+            <div style="padding-top:5px;">
+                <ul>
+                    <li><a href="https://www.facebook.com/r.php">註冊</a></li><li>&nbsp;</li>
+                    <li><a href="https://www.facebook.com/login/">登入</a></li><li>&nbsp;</li>
+                    <li><a href="https://messenger.com/">Messenger</a></li><li>&nbsp;</li>
+                    <li><a href="#">Facebook Lite</a></li><li>&nbsp;</li><li>&nbsp;</li>
+                    <li><a href="#">用戶</a></li><li>&nbsp;</li><li>&nbsp;</li>
+                    <li><a href="#">個人檔案</a></li><li>&nbsp;</li>
+                    <li><a href="#">粉絲專頁</a></li><li>&nbsp;</li>
+                    <li><a href="#">地標</a></li><li>&nbsp;</li>
+                    <li><a href="#">遊戲</a></li><li>&nbsp;</li>
+                    <li><a href="#">地點</a></li><li>&nbsp;</li>
+                    <li><a href="#">Marketplace</a></li><li>&nbsp;</li>
+                    <li><a href="#">社團</a></li><li>&nbsp;</li>
+                    <li><a href="#">Instagram</a></li><li>&nbsp;</li>
+                    <li><a href="#">本地</a></li><li>&nbsp;</li>
+                    <li><a href="#">募款活動</a></li><li>&nbsp;</li>
+                    <li><a href="#">服務</a></li><li>&nbsp;</li>
+                    <li><a href="#">關於</a></li><li>&nbsp;</li>
+                    <li><a href="#">刊登廣告</a></li><li>&nbsp;</li>
+                    <li><a href="#">建立粉絲專頁</a></li><li>&nbsp;</li>
+                    <li><a href="#">開發人員</a></li><li>&nbsp;</li>
+                    <li><a href="#">工作機會</a></li><li>&nbsp;</li>
+                    <li><a href="#">隱私政策</a></li><li>&nbsp;</li>
+                    <li><a href="#">Cookie</a></li><li>&nbsp;</li>
+                    <li><a href="#">Ad Choices<img style="padding-left:2px; " src="sign.png" width="15px" height="15px"></img></a></li><li>&nbsp;</li>
+                    <li><a href="#">使用條款</a></li><li>&nbsp;</li>
+                    <li><a href="#">帳號安全</a></li><li>&nbsp;</li>
+                    <li><a href="#">使用說明</a></li><li>&nbsp;</li>
+                </ul>
+            </div>
+            <div class="copyright">
+                Facebook © 2019
+            </div>
+        </div>
+    </div>
+</body>
+</html>
